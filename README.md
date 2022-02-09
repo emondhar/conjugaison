@@ -40,7 +40,7 @@
     <a href="https://github.com/emondhar/conjugaison"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/emondhar/conjugaison">View Demo</a>
+    <a href="https://conjugaison.vercel.app">View Demo</a>
     ·
     <a href="https://github.com/emondhar/conjugaison/issues">Report Bug</a>
     ·
