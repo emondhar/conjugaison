@@ -116,7 +116,7 @@ function App() {
               required
               fullWidth
               id="verbe"
-              label="Verbe à conjuger"
+              label="Verbe à conjuguer"
               name="verbe"
               autoFocus
             />
