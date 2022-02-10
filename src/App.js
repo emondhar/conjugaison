@@ -26,6 +26,7 @@ import Alert from "@mui/material/Alert";
 import IconButton from "@mui/material/IconButton";
 import Collapse from "@mui/material/Collapse";
 import CloseIcon from "@mui/icons-material/Close";
+import Link from '@mui/material/Link';
 
 function App() {
   const [data, setData] = useState({ verbe: [], verbeLoaded: false });
@@ -52,19 +53,19 @@ function App() {
         createData(0, verbeEntrer, vpresent, vpasse, verbeEntrer),
       ];
 
-      if (data.verbe.length > 0) {
-        let verbeAjout = data.verbe;
-        verbeAjout.push(
-          createData(
-            data.verbe.length,
-            verbeEntrer,
-            vpresent,
-            vpasse,
-            verbeEntrer
-          )
-        );
-        nouvVerbe = verbeAjout;
-      }
+      // if (data.verbe.length > 0) {
+      //   let verbeAjout = data.verbe;
+      //   verbeAjout.push(
+      //     createData(
+      //       data.verbe.length,
+      //       verbeEntrer,
+      //       vpresent,
+      //       vpasse,
+      //       verbeEntrer
+      //     )
+      //   );
+      //   nouvVerbe = verbeAjout;
+      // }
 
       setData({ verbe: nouvVerbe, verbeLoaded: true });
       setOpen({ text: "", isError: false });
@@ -302,6 +303,7 @@ function App() {
           </TableContainer>
         </Container>
       )}
+      <Copyright sx={{ mt: 8, mb: 4 }} />
     </ThemeProvider>
   );
 }
@@ -310,4 +312,17 @@ export default App;
 
 function createData(id, verbe, present, passe, fproche) {
   return { id, verbe, present, passe, fproche };
+}
+
+function Copyright(props) {
+  return (
+    <Typography variant="body2" color="text.secondary" align="center" {...props}>
+      {'Copyright © '}
+      <Link color="inherit" href="https://emondhar.com">
+        Emon Dhar
+      </Link>{' - '}
+      {new Date().getFullYear()}
+      {'.'}
+    </Typography>
+  );
 }
