@@ -40,7 +40,7 @@
     <a href="https://github.com/emondhar/conjugaison"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/emondhar/conjugaison">View Demo</a>
+    <a href="https://conjugaison.vercel.app">View Demo</a>
     ·
     <a href="https://github.com/emondhar/conjugaison/issues">Report Bug</a>
     ·
@@ -169,4 +169,4 @@ Project Link: [https://github.com/emondhar/conjugaison](https://github.com/emond
 [license-url]: https://github.com/emondhar/conjugaison/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: https://user-images.githubusercontent.com/6901867/153128056-1d622ffd-b7e8-4bab-b41b-7e422a7e7eac.png
+[product-screenshot]: https://user-images.githubusercontent.com/6901867/153128960-a574a6be-10a4-409b-a421-2d1bc4045010.png
